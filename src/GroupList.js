@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 
 class GroupList extends Component {
     constructor(props){
-        super();
+        super(props);
         this.state = {groups: [], isLoading: true};
         this.remove  = this.remove.bind(this);
     }
